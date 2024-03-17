@@ -2,8 +2,12 @@
   padding-top: 10px;
   text-align: center;
 }
+.course ul li {
+  list-style: none;
+  line-height: 40px;
+}
 .course ul li span {
-  padding-left: 20px;
+  padding-left: 30px;
   background-color: #fff;
   border-radius: 0.2rem;
 }
@@ -15,8 +19,13 @@
   margin: 0 0.5rem;
   border-radius: 0.5rem;
   text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 @media (max-width: 480px) {
+  .course p {
+    text-align: justify;
+  }
   #p1 {
     text-align: justify;
   }

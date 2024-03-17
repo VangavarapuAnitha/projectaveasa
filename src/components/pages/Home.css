@@ -11,6 +11,8 @@ h2 {
   margin: 0 0.5rem;
   border-radius: 0.5rem;
   text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .home-container p {
@@ -19,6 +21,10 @@ h2 {
 }
 .home-container ul {
   padding-top: 10px;
+}
+.home-container ul li {
+  list-style: none;
+  line-height: 40px;
 }
 .home-container ul li span {
   padding-left: 20px;
