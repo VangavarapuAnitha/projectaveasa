@@ -1,0 +1,14 @@
+.contact p {
+  text-align: center;
+}
+.contact h2 {
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .contact h2 {
+    text-align: center;
+  }
+  .contact p {
+    text-align: justify;
+  }
+}

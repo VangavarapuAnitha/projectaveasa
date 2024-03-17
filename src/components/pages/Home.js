@@ -48,6 +48,26 @@ const Home = () => {
         </ul>
       </div>
       <Link to="/Enroll">Enroll Now</Link>
+      <div className="home1">
+        <h2>Testimonials</h2>
+        <p>
+          Mr. Arun's course was an eye-opener for me. I learned so much about
+          journalism and how to approach stories. I highly recommend it to
+          anyone who wants to become a journalist.- Anand, Aspiring Journalist
+        </p>
+        <br />
+        <p>
+          I loved the interactive sessions and the real-life examples that Mr.
+          Arun shared with us. It was a great learning experience.- Suneetha,
+          Aspiring Journalist
+        </p>
+        <h2>Contact</h2>
+        <p>
+          If you have any questions or would like to learn more about the
+          course, please contact us at
+          [contact@arunscourse.com](mailto:contact@arunscourse.com).
+        </p>
+      </div>
     </div>
   );
 };

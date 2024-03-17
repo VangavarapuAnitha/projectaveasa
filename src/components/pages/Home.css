@@ -11,6 +11,7 @@ h2 {
   border-radius: 0.5rem;
   text-align: center;
 }
+
 .home-container p {
   text-align: justify;
 }
@@ -18,6 +19,9 @@ h2 {
   padding-left: 20px;
   background-color: #fff;
   border-radius: 0.2rem;
+}
+.home1 p {
+  text-align: justify;
 }
 @media (max-width: 480px) {
   .home h1,
@@ -27,8 +31,7 @@ h2 {
   .home-container h2 {
     text-align: center;
   }
-  .home-container img {
-    position: relative;
-    left: 90px;
+  .home1 h2 {
+    text-align: center;
   }
 }

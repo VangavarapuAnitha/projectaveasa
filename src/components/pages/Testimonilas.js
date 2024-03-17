@@ -1,83 +1,25 @@
 import React from "react";
-
+import "./Testimonilas.css";
 const Testimonilas = () => {
   return (
     <div>
+      <h2>What Students Say About the Course</h2>
       <p>
-        Avul Pakir Jainulabdeen Abdul Kalam, better known as APJ Abdul Kalam,
-        was an illustrious scientist turned statesman who served as the 11th
-        President of India from 2002 to 2007. Kalam spent more than forty years
-        as a science administrator and scientist mainly at the Indian Space
-        Research Organization (ISRO) and Defence Research and the Development
-        Organization (DRDO). He was closely associated with the military missile
-        development efforts and civilian space programme of India. For his work
-        on launch vehicle technology and development of ballistic missile, he
-        was given the pseudonym of ‘The Missile Man of India.’ In 1998, he
-        played a prominent role in Pokhran-II Nuclear Tests.
+        Mr. Arun's course was an eye-opener for me. I learned so much about
+        journalism and how to approach stories. I highly recommend it to anyone
+        who wants to become a journalist.- Anand, Aspiring Journalist
       </p>
       <br />
       <p>
-        Avul Pakir Jainulabdeen Abdul Kalam, better known as APJ Abdul Kalam,
-        was an illustrious scientist turned statesman who served as the 11th
-        President of India from 2002 to 2007. Kalam spent more than forty years
-        as a science administrator and scientist mainly at the Indian Space
-        Research Organization (ISRO) and Defence Research and the Development
-        Organization (DRDO). He was closely associated with the military missile
-        development efforts and civilian space programme of India. For his work
-        on launch vehicle technology and development of ballistic missile, he
-        was given the pseudonym of ‘The Missile Man of India.’ In 1998, he
-        played a prominent role in Pokhran-II Nuclear Tests.
+        I loved the interactive sessions and the real-life examples that Mr.
+        Arun shared with us. It was a great learning experience.- Suneetha,
+        Aspiring Journalist
       </p>
       <br />
       <p>
-        Avul Pakir Jainulabdeen Abdul Kalam, better known as APJ Abdul Kalam,
-        was an illustrious scientist turned statesman who served as the 11th
-        President of India from 2002 to 2007. Kalam spent more than forty years
-        as a science administrator and scientist mainly at the Indian Space
-        Research Organization (ISRO) and Defence Research and the Development
-        Organization (DRDO). He was closely associated with the military missile
-        development efforts and civilian space programme of India. For his work
-        on launch vehicle technology and development of ballistic missile, he
-        was given the pseudonym of ‘The Missile Man of India.’ In 1998, he
-        played a prominent role in Pokhran-II Nuclear Tests.
-      </p>
-      <br />
-      <p>
-        Avul Pakir Jainulabdeen Abdul Kalam, better known as APJ Abdul Kalam,
-        was an illustrious scientist turned statesman who served as the 11th
-        President of India from 2002 to 2007. Kalam spent more than forty years
-        as a science administrator and scientist mainly at the Indian Space
-        Research Organization (ISRO) and Defence Research and the Development
-        Organization (DRDO). He was closely associated with the military missile
-        development efforts and civilian space programme of India. For his work
-        on launch vehicle technology and development of ballistic missile, he
-        was given the pseudonym of ‘The Missile Man of India.’ In 1998, he
-        played a prominent role in Pokhran-II Nuclear Tests.
-      </p>
-      <p>
-        Avul Pakir Jainulabdeen Abdul Kalam, better known as APJ Abdul Kalam,
-        was an illustrious scientist turned statesman who served as the 11th
-        President of India from 2002 to 2007. Kalam spent more than forty years
-        as a science administrator and scientist mainly at the Indian Space
-        Research Organization (ISRO) and Defence Research and the Development
-        Organization (DRDO). He was closely associated with the military missile
-        development efforts and civilian space programme of India. For his work
-        on launch vehicle technology and development of ballistic missile, he
-        was given the pseudonym of ‘The Missile Man of India.’ In 1998, he
-        played a prominent role in Pokhran-II Nuclear Tests.
-      </p>
-      <br />
-      <p>
-        Avul Pakir Jainulabdeen Abdul Kalam, better known as APJ Abdul Kalam,
-        was an illustrious scientist turned statesman who served as the 11th
-        President of India from 2002 to 2007. Kalam spent more than forty years
-        as a science administrator and scientist mainly at the Indian Space
-        Research Organization (ISRO) and Defence Research and the Development
-        Organization (DRDO). He was closely associated with the military missile
-        development efforts and civilian space programme of India. For his work
-        on launch vehicle technology and development of ballistic missile, he
-        was given the pseudonym of ‘The Missile Man of India.’ In 1998, he
-        played a prominent role in Pokhran-II Nuclear Tests.
+        Mr. Arun's course helped me understand the nuances of journalism and how
+        to apply them in real-life situations. I am grateful for the opportunity
+        to learn from him.- Raju, Aspiring Journalist
       </p>
     </div>
   );
