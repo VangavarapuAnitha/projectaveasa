@@ -1,5 +1,6 @@
 .home h1,
 h2 {
+  padding-top: 10px;
   text-align: center;
 }
 .home a {
@@ -13,7 +14,11 @@ h2 {
 }
 
 .home-container p {
+  padding-top: 10px;
   text-align: justify;
+}
+.home-container ul {
+  padding-top: 10px;
 }
 .home-container ul li span {
   padding-left: 20px;
@@ -21,6 +26,7 @@ h2 {
   border-radius: 0.2rem;
 }
 .home1 p {
+  padding-top: 10px;
   text-align: justify;
 }
 @media (max-width: 480px) {
