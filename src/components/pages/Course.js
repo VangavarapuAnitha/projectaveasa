@@ -3,7 +3,7 @@ import "./Course.css";
 import { Link } from "react-router-dom";
 const Course = () => {
   return (
-    <div>
+    <div className="course">
       <h1>Join Mr. Arun's Online Course</h1>
       <p>
         Learn practical insights about journalism from a seasoned journalist

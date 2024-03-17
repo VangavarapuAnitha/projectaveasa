@@ -1,12 +1,13 @@
-p {
+.course p {
+  padding-top: 10px;
   text-align: center;
 }
-ul li span {
+.course ul li span {
   padding-left: 20px;
   background-color: #fff;
   border-radius: 0.2rem;
 }
-a {
+.course a {
   display: block;
   text-decoration: none;
   color: black;
