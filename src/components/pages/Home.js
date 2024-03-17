@@ -10,7 +10,9 @@ const Home = () => {
         Unlock your potential and become a successful journalist with this
         practical course.
       </h2>
-      <Link to="/Course">Explore the Course</Link>
+      <Link to="/Course" className="blink-container">
+        Explore the Course
+      </Link>
       <div className="home-container">
         <h2>About Mr. Arun</h2>
         <p>
@@ -47,7 +49,9 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <Link to="/Enroll">Enroll Now</Link>
+      <Link to="/Enroll" className="blink-container">
+        Enroll Now
+      </Link>
       <div className="home1">
         <h2>Testimonials</h2>
         <p>

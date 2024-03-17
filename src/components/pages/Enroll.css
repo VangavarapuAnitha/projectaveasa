@@ -23,16 +23,23 @@ input {
 }
 button {
   background-color: black;
+  padding: 10px 10px;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
 }
+button:hover {
+  background-color: black;
+}
 @media (max-width: 480px) {
   .form-container {
     padding-left: 5px;
     width: 140px;
     margin: 0 auto;
+  }
+  input {
+    width: 100%;
   }
 }

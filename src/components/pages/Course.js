@@ -34,7 +34,9 @@ const Course = () => {
         Interactive sessions, case studies, and assignments are included to help
         you understand the concepts better.
       </p>
-      <Link to="/Enroll">Enroll Now</Link>
+      <Link to="/Enroll" className="blink-container">
+        Enroll Now
+      </Link>
     </div>
   );
 };

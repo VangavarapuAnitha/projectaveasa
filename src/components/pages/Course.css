@@ -7,7 +7,7 @@
   line-height: 40px;
 }
 .course ul li span {
-  padding-left: 30px;
+  padding-left: 500px;
   background-color: #fff;
   border-radius: 0.2rem;
 }
@@ -22,9 +22,26 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
+@media (max-width: 1020px) {
+  .course ul li span {
+    padding-left: 400px;
+  }
+}
+@media (max-width: 780px) {
+  .course ul li span {
+    padding-left: 250px;
+  }
+}
 @media (max-width: 480px) {
+  .course h1 {
+    text-align: center;
+    font-size: x-large;
+  }
   .course p {
     text-align: justify;
+  }
+  .course ul li span {
+    padding-left: 50px;
   }
   #p1 {
     text-align: justify;

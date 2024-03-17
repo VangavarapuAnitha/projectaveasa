@@ -1,3 +1,14 @@
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .home h1,
 h2 {
   padding-top: 10px;
@@ -14,9 +25,14 @@ h2 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+.blink-container {
+  animation: blink 1s infinite;
+}
 
 .home-container p {
   padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: justify;
 }
 .home-container ul {
@@ -27,23 +43,45 @@ h2 {
   line-height: 40px;
 }
 .home-container ul li span {
-  padding-left: 20px;
+  padding-left: 500px;
   background-color: #fff;
   border-radius: 0.2rem;
 }
 .home1 p {
   padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
   text-align: justify;
+}
+@media (max-width: 1020px) {
+  .home-container ul li span {
+    padding-left: 400px;
+  }
+}
+@media (max-width: 780px) {
+  .home-container ul li span {
+    padding-left: 250px;
+  }
 }
 @media (max-width: 480px) {
   .home h1,
   h2 {
-    text-align: justify;
+    text-align: center;
+    font-size: large;
   }
   .home-container h2 {
     text-align: center;
   }
+  .home-container ul li span {
+    padding-left: 50px;
+  }
   .home1 h2 {
     text-align: center;
+  }
+  .home1 p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
   }
 }
